@@ -1,0 +1,52 @@
+.vertical-center{
+    margin-top: calc(50vh - 56px - 2rem);
+}
+
+.horizontal-center{
+    text-align: center;
+}
+
+.row{
+    display: inline-flex;
+    width: 100%;
+}
+
+.cart{
+    height: 30px;
+    width: 30px;
+    background-image: url("./assets/cart.png");
+    background-size: 30px;
+    color: red;
+    font-weight: bold;
+    padding-left: 31px;
+    padding-top: 3px;
+    margin: 0;
+}
+
+.meme-card-placeholder{
+    padding: 5px;
+    margin: 0px;
+    height: 35vh;
+    width: 25%;
+    z-index: 1;
+}
+.meme-card{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+    z-index: 2;
+}
+.meme-btns{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.meme-card:hover{
+    opacity: .5;
+}
